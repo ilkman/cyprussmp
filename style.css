@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Minecraft;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nick {
+    margin-bottom: 0.5rem;
+}
+
+
+i {
+    color: white;
+    font-size: 22px;
+    margin-left: 0.5rem;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 40px;
+}
+
+.fa-twitch:hover {
+    color: #6441A4;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-discord:hover {
+    color: #7289DA;
+}
+
+.skin {
+    margin-top: 2rem;
+}
+
+#footericon {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 40px;
+    color: black;
+}
+
+footer {
+    margin-top: 2rem;
+    background: white;
+    color: black;
+
+
+}
+
+.clan {
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.gotten {
+    color: #ff0092;
+}
+
+.komunism {
+    color: #a800ff;
+}
+
+.admin {
+    color: red;
+}
